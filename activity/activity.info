@@ -1,0 +1,6 @@
+[Activity]
+name = SistemSolar
+activity_version = 1
+bundle_id = ofcursopython.SistemaSolar
+exec = sugar-activity activity.SistemaSolar
+licence = GPLv3+
