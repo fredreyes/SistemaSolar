@@ -3,4 +3,5 @@ name = SistemSolar
 activity_version = 1
 bundle_id = ofcursopython.SistemaSolar
 exec = sugar-activity activity.SistemaSolar
+icon = sistema-solar.svg
 licence = GPLv3+
