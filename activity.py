@@ -18,6 +18,7 @@ class SistemaSolar(activity.Activity):
 
 	def __init__(self, handle):
 		activity.Activity.__init__(self, handle)
+		self.agregar_toolbar()
 
 	def agregar_toolbar(self):
 		toolbar_box = ToolbarBox()
@@ -31,4 +32,4 @@ class SistemaSolar(activity.Activity):
 		activity_stop_button.show()
 
 		self.set_toolbar_box(toolbar_box)
-        toolbar_box.show()
+		toolbar_box.show()
