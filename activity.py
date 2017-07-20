@@ -31,5 +31,10 @@ class SistemaSolar(activity.Activity):
 		toolbar_box.toolbar.insert(activity_stop_button, -1)
 		activity_stop_button.show()
 
+		description_item = DescriptionItem(self)
+        toolbar_box.toolbar.insert(description_item, -1)
+        description_item.show()
+
 		self.set_toolbar_box(toolbar_box)
 		toolbar_box.show()
+
